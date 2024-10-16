@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Sujitha's Learning</title>
+</head>
+
+<body>
+   <h3>Application Form with attributes</h3>
+   <form action="">
+      <br><br>
+      Name : <input type="text" id="name" name="name" required>
+      <br><br>
+      Password : <input type="password" id="Pass" name="pass" placeholder="Sample@123" required>
+      <br><br>
+      DOB: <input type="date" id="dob" name="dob" required>
+      <br><br>
+      Age: <input type="number" id="age" name="age" min="25" max="30">
+      <br><br>
+      Gender: &nbsp 
+      <input type="radio" name="gender" value="gender" id="gender" checked>Male 
+      &nbsp;
+      <input type="radio" name="gender" value="gender" id="gender">Female 
+      <br><br>
+      Email : <input type="email" id="email" name="email" required>
+      <br><br>
+      Phone: <input type="tel" id="phone" name="phone" required maxlength="10">
+      <br><br>
+       Preferred Work Location : &nbsp;
+      <input type="checkbox" name="Remote" value="Remote">Remote
+      <input type="checkbox" name="Toronto" value="Toronto" checked>Toronto
+      <input type="checkbox" name="Waterloo" value="WaterLoo">Waterloo
+      <br><br>
+      Notice Period: &nbsp;
+      <select name="np" id="np">
+         <option>Immediate</option>
+         <option selected>15 Days</option>
+         <option>1 Month</option>
+         <option>30+ Days</option>
+      </select>
+      <br><br>
+      LinkedIn Url: <input type="url" id="LinkUrl" name="LinkUrl">
+      <br><br>
+      Upload Resume: <input type="file" id="resume" name="resume">
+      <br><br>
+      Salary : <input type="text" name="salary" id="salary" value="100K CAD" disabled>  &nbsp;
+      Allowances : <input type="text" name="allow" id="allow" value="NILL" readonly> 
+
+   </form>
+</body>
+
+</html>

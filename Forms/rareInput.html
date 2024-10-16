@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sujitha's Learning</title>
+</head>
+
+<body>
+    <h3>Rare Input</h3>
+    <form action="">
+        Eye color : <input type="color" name="eye" id="eye" value="#964B00">
+        <br><br>
+        DOB: <input type="date" id="start" name="trip-start" value="2018-07-22" min="1990-01-01" max="2000-12-31" />
+
+        <br><br>
+        <label for="start"> Month and year:</label>
+        <input type="month" id="start" name="start" min="2024-10" max="2025-05" value="2024-10" />
+
+        <br><br>
+        Data List : &nbsp;
+        <label for="ice-cream-choice">Choose a flavor, keep typing to see the magic:</label>
+        <br>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+        <datalist id="ice-cream-flavors">
+            <option value="Chocolate"></option>
+            <option value="Coconut"></option>
+            <option value="Mint"></option>
+            <option value="Strawberry"></option>
+            <option value="Vanilla"></option>
+        </datalist>
+
+        <br><br>
+        Select a week <input type="week" name="week" id="camp-week" min="2018-W18" max="2018-W26" required />
+        <br><br>
+
+        <br><br>
+        <label for="site-search">Search the site:</label>
+        <input type="search" id="site-search" name="q" />
+        <button type="reset">Search</button>
+
+        <br><br>
+        <label for="appt">Choose a time for your meeting:</label>
+        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+        <small>Office hours are 9am to 6pm</small>
+
+        <br><br>
+        <label contenteditable="">I got 2<sup>nd</sup> place in kabadi</label>
+        <br>
+        <label contenteditable="" >This text contains <sub>subscript</sub> text</label>
+
+        <br><br>
+    </form>
+</body>
+
+</html>
